@@ -7,6 +7,9 @@
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+}
 
 /* utility  */
 
@@ -49,13 +52,15 @@ li a {
 }
 
 #burger {
-    
+
     display: none;
     color: white;
     font-size: 23px;
 }
 
 /* main rules  */
+
+    /* main section  */
 
 .main {
 
@@ -82,17 +87,52 @@ li a {
 
 }
 
+    /* plans section  */
+
+.plan {
+
+    background-color: #9792e4;
+
+}
+
+.plan_container {
+
+    max-width: 936px;
+    margin: 0 auto;
+    padding: 134px 0 62px;
+}
+
+.plan_container_square {
+
+    max-width: 50%;
+    margin: 0 32px;
+
+}
+
+.flex-bot {
+
+    align-self:flex-end ;
+    background-color: white;
+
+}
+
 
 
 /* SMALL PC Rules */
 
 @media screen and (max-width:1180px) {
 
+    /* header  */
+
     nav.flex {
 
         margin: 0 32px;
 
     }
+
+    /* main */
+
+        /* main section */
 
     .main {
 
@@ -106,6 +146,8 @@ li a {
 
 @media screen and (max-width:810px) {
 
+    /* header */
+
     ul.flex {
 
         display: none;
@@ -117,12 +159,34 @@ li a {
         display: block;
 
     }
+
+    /* main  */
+
+        /* plans section  */
+
+    .plan_container.flex {
+
+        display: block;
+
+    }
+
+    .plan_container_square {
+
+        max-width: 100%;
+        margin-bottom: 42px;
+    }
+
+
  
 }
 
 /* SMARTPHONE Rules  */
 
 @media screen and (max-width:430px) {
+
+    /* Main Rules */
+
+        /* Main Section  */
 
     .square,.big {
 
