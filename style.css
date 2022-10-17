@@ -137,6 +137,30 @@ li a {
 
 }
 
+    /* Benefit Section  */
+
+.benefit {
+
+    background-color: #9792e4; 
+
+}    
+
+.benefit_container {
+
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 76px 0 62px;
+    flex-wrap: wrap;
+
+}
+
+.benefit_container_square {
+
+    max-width: calc(100% / 3 - 30px);
+    margin: 30px 15px 0;
+
+}
+
 /* SMALL PC Rules */
 
 @media screen and (max-width:1180px) {
@@ -193,7 +217,15 @@ li a {
 
         max-width: 100%;
         margin-bottom: 42px;
-    }
+    }   
+
+        /* benefit section  */
+
+    .benefit_container_square {
+
+        max-width: calc(100% / 2 - 30px);
+
+    }        
 
 
  
@@ -213,5 +245,15 @@ li a {
         margin: 0 34px 24px;
 
     }
+
+        /* benefit section  */
+
+    .benefit_container_square {
+
+        max-width: calc(100% - 30px);
+
+    }   
+
+
 
 }
