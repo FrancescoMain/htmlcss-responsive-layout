@@ -229,6 +229,8 @@ li a {
 footer {
 
     background-color: #333333;
+    color: white;
+    text-align: center;
 
 }
 
@@ -237,6 +239,12 @@ footer div {
     max-width: 440px;
     margin: 0 auto;
     padding: 44px 36px;
+
+}
+
+div a {
+
+    color: #837fc1;
 
 }
 
