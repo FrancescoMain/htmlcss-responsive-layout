@@ -1,0 +1,80 @@
+/* general rules */
+
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* utility  */
+
+.flex {
+
+    display: flex;
+
+}
+
+/* header rules  */
+
+header {
+
+    background-color: #0084fd;
+
+}
+
+nav {
+
+    justify-content: space-between;
+    align-items: center;
+    min-height: 74px;
+    max-width: 1150px;
+    margin: 0 auto;
+    
+}
+
+ul {
+
+    list-style: none;
+
+}
+
+li a {
+
+    text-decoration: none;
+    color: white;
+    margin-left: 34px;
+
+}
+
+#burger {
+    display: none;
+    color: white;
+    font-size: 23px;
+}
+
+/* small pc */
+
+@media screen and (max-width:1180px) {
+
+    nav.flex {
+        margin: 0 32px;
+
+    }
+   
+}
+
+/* TABLET Rules */
+
+@media screen and (max-width:810px) {
+
+    ul.flex {
+        display: none;
+    }
+    
+    #burger{
+        display: block;
+    }
+ 
+}
