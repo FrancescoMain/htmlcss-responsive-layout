@@ -98,10 +98,9 @@ li a {
 
     background-color: #b5ddff;
     margin: 24px 11px 0;
-
-    /* DEBUG */
-    height: 348px;
     max-width: calc(100% / 3  - 26px);
+    border-radius: 20px;
+    color: #0084fd;   
 
 }
 
@@ -111,7 +110,78 @@ li a {
 
 }
 
-    /* plans section  */
+.phoneimg {
+
+    overflow: hidden;
+    align-self: flex-end;
+    position: relative;
+    top: 3px;
+    width: 400px;
+    
+
+}
+
+.phoneimg img {
+
+    
+    padding-right: 50px;
+
+}
+
+.content-square {
+
+    color: #0084fd;
+    font-size: 24px;
+    padding: 38px 26px;
+    max-width: 60%;
+
+}
+
+div.square.flex p {
+    
+    color: #5a6e7f;
+    padding: 40px 0;
+    font-size: 18px;
+
+}
+
+.appstore {
+
+    background-color: #0084fd;
+    border: 0;
+    color: white;
+    padding: 10px 46px;
+    font-size: 18px;
+
+}
+
+.center {
+
+    text-align: center;
+    padding: 38px 26px;
+
+}
+
+div.square.center div, div.square.center h4, div.square.center p {
+
+    margin-bottom: 20px;
+
+}
+
+div.square.center h4 {
+
+    font-size: 20px;
+
+}
+
+div.square.center p {
+
+    color: #5a6e7f;   
+    font-size: 22px; 
+
+}
+
+/* plans section  */
 
 .plan {
 
@@ -269,6 +339,24 @@ div a {
         margin:52px 28px 102px;
 
     }
+
+    .square.flex {
+
+        flex-wrap: wrap;
+
+    }
+
+    .phoneimg {
+
+        width: 283px;
+
+    }
+
+    .content-square {
+
+        max-width: 100%;
+
+    }
    
 }
 
@@ -304,6 +392,7 @@ div a {
 
         max-width: 100%;
         margin-bottom: 42px;
+
     }   
 
         /* benefit section  */
@@ -330,6 +419,13 @@ div a {
 
         max-width: 100%;
         margin: 0 34px 24px;
+        text-align: center;
+
+    }
+
+    .phoneimg img {
+        
+        padding: 0;
 
     }
 
@@ -345,7 +441,7 @@ div a {
 
     .about {
 
-    flex-wrap: wrap;
+        flex-wrap: wrap;
 
     }
     
