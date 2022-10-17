@@ -161,6 +161,29 @@ li a {
 
 }
 
+    /* about us section  */
+
+.about {
+
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 90px 0 120px;
+
+}    
+
+.about article {
+
+    max-width: 75%;
+    margin-right: 90px ;
+
+}
+
+.about article, .about div {
+
+    margin: 0 42px;
+
+}
+
 /* SMALL PC Rules */
 
 @media screen and (max-width:1180px) {
@@ -254,6 +277,19 @@ li a {
 
     }   
 
+        /* about us section  */
+
+    .about {
+
+    flex-wrap: wrap;
+
+    }
+    
+    .about div {
+
+        margin-top: 62px;
+        
+    }
 
 
 }
