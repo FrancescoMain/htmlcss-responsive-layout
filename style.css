@@ -1,7 +1,7 @@
 /* general rules */
 
 * {
-    
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -49,17 +49,54 @@ li a {
 }
 
 #burger {
+    
     display: none;
     color: white;
     font-size: 23px;
 }
 
-/* small pc */
+/* main rules  */
+
+.main {
+
+    max-width: 1150px;
+    margin:52px auto 102px;
+    flex-wrap: wrap;
+
+}
+
+.square {
+
+    background-color: #b5ddff;
+    margin: 24px 11px 0;
+
+    /* DEBUG */
+    height: 348px;
+    max-width: calc(100% / 3  - 26px);
+
+}
+
+.big {
+
+    max-width: calc(100% / 3 * 2  - 26px);
+
+}
+
+
+
+/* SMALL PC Rules */
 
 @media screen and (max-width:1180px) {
 
     nav.flex {
+
         margin: 0 32px;
+
+    }
+
+    .main {
+
+        margin:52px 28px 102px;
 
     }
    
@@ -70,11 +107,28 @@ li a {
 @media screen and (max-width:810px) {
 
     ul.flex {
+
         display: none;
+
     }
     
     #burger{
+
         display: block;
+
     }
  
+}
+
+/* SMARTPHONE Rules  */
+
+@media screen and (max-width:430px) {
+
+    .square,.big {
+
+        max-width: 100%;
+        margin: 0 34px 24px;
+
+    }
+
 }
