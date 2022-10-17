@@ -116,7 +116,26 @@ li a {
 
 }
 
+    /* Testimonial Section  */
 
+.testimonial {
+
+    max-width: 1140px;
+    margin: 70px auto 112px;
+
+}    
+
+.testimonial_square {
+
+    background-color: #9792e4;    
+
+}
+
+.testimonial div {
+
+    margin: 30px 42px 0;
+
+}
 
 /* SMALL PC Rules */
 
