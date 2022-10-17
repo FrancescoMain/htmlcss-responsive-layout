@@ -200,6 +200,22 @@ li a {
 
 }
 
+/* footer  */
+
+footer {
+
+    background-color: #333333;
+
+}
+
+footer div {
+
+    max-width: 440px;
+    margin: 0 auto;
+    padding: 44px 36px;
+
+}
+
 /* SMALL PC Rules */
 
 @media screen and (max-width:1180px) {
