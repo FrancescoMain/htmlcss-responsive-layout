@@ -438,14 +438,85 @@ div.square.center p {
 
 .about article {
 
-    max-width: 75%;
+    max-width: 80%;
     margin-right: 90px ;
 
 }
 
-.about article, .about div {
+article h2 {
+
+    color: #9792e4;
+    font-size: 60px;
+
+}
+
+article p {
+
+    line-height: 40px;
+    margin-top: 30px;
+    font-size: 25px;
+
+}
+
+#about {
+
+    background-image: url(img/about.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+
+}
+
+.about_section {
+
+    max-width: 30%;
+    position: relative;
+
+}
+
+.about article, .about_section {
 
     margin: 0 42px;
+    font-size: 30px;
+
+}
+
+.about_text {
+
+    color: #9792e4;
+    font-size: 30px;
+    margin-top: 36px;
+    line-height: 40px;
+    margin-left: 25px;
+
+}
+
+.fa-user {
+
+    margin-right: 10px;
+
+}
+
+.find {
+
+    background-color: #9792e4;
+    border: 0px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 25px;
+    margin-top: 36px;
+
+}
+
+.about_section span {
+
+    color: #9792e4;
+    position: absolute;
+    font-size: 170px;
+    top: 0;
+    right: 5px;
 
 }
 
@@ -722,6 +793,12 @@ div a {
     .about div {
 
         margin-top: 62px;
+
+    }
+
+    .about_section {
+
+        max-width: 100%;
 
     }
 
