@@ -14,6 +14,12 @@ img {
 
 }
 
+body {
+
+    font-family: sans-serif;
+
+}
+
 /* utility  */
 
 .flex {
@@ -267,20 +273,82 @@ div.square.center p {
 
 .testimonial {
 
-    max-width: 1140px;
+    max-width: 1150px;
     margin: 70px auto 112px;
+    font-size: 22px;
+    padding: 50px 0;
 
-}    
+}   
 
-.testimonial_square {
+.testimonial_title {
 
-    background-color: #9792e4;    
+    text-align: center;
 
 }
 
-.testimonial div {
+.testimonial_title h2 {
 
-    margin: 30px 42px 0;
+    color: #9792e4;
+    margin-top: 44px;
+    font-size: 42px;
+
+}
+
+.testimonial_title p {
+   
+    margin-top: 54px;
+    
+}
+
+.testimonial_square {
+
+    background-color: #9792e4;   
+    border-radius: 20px; 
+    padding: 0 10px;
+    align-items: center;
+    margin-top: 50px;
+    padding: 32px 20px;
+
+}
+
+
+.testimonial_container {
+
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 40px;
+    
+}
+
+.testimonial_square p span {
+
+    font-size: 40px;
+
+}
+
+.testimonial_square p  {
+
+    margin: 40px 0;
+
+}
+
+.testimonial_container {
+
+    max-width: 70%;
+
+}
+
+
+
+#nat {
+
+    background-image: url(img/testimonial1.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-position: -50px;
 
 }
 
@@ -408,6 +476,14 @@ div a {
     .content-square {
 
         max-width: 100%;
+
+    }
+
+        /* testimonial section  */
+
+    .testimonial {
+
+        margin: 0 30px;
 
     }
    
@@ -557,6 +633,24 @@ div a {
 
         font-size: 22px;
         
+    }
+
+        /* testimonial section  */
+
+    .testimonial_square {
+
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+    }        
+
+    .testimonial_container{
+
+        text-align: center;
+        margin-left: 0;
+        max-width: 100%;
+
     }
 
         /* benefit section  */
