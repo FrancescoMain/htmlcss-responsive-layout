@@ -637,6 +637,14 @@ div a {
 
     }
 
+        /* plan section  */
+
+    .plan_container {
+
+        margin: 0 20px;
+
+    }
+
         /* testimonial section  */
 
     .testimonial {
@@ -644,6 +652,20 @@ div a {
         margin: 0 30px;
 
     }
+
+    .testimonial_container {
+
+        max-width: 60%;
+
+    }
+
+        /* benefit section  */
+
+    .benefit_container_square {
+
+        max-width: calc(100% / 2 - 30px);
+    
+    }        
    
 }
 
@@ -731,21 +753,12 @@ div a {
 
 
 
-        /* benefit section  */
-
-    .benefit_container_square {
-
-        max-width: calc(100% / 2 - 30px);
-
-    }        
-
-
  
 }
 
 /* SMARTPHONE Rules  */
 
-@media screen and (max-width:430px) {
+@media screen and (max-width:710px) {
 
     /* Main Rules */
 
@@ -756,6 +769,7 @@ div a {
         max-width: 100%;
         margin: 0 34px 24px;
         text-align: center;
+        justify-content: center;
 
     }
 
