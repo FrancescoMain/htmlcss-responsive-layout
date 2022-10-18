@@ -116,8 +116,7 @@ li a {
     align-self: flex-end;
     position: relative;
     top: 3px;
-    width: 400px;
-    
+    width: 300px;
 
 }
 
@@ -199,7 +198,9 @@ div.square.center p {
 .plan_container_square {
 
     max-width: 50%;
-    margin: 0 32px;
+    color: white;
+    font-size: 18px;
+    padding: 0 20px;
 
 }
 
@@ -207,6 +208,58 @@ div.square.center p {
 
     align-self:flex-end ;
     background-color: white;
+    color: black;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 30px;
+    margin: 0 0 0 42px;
+    padding: 0 30px;
+
+}
+
+.plan_container img {
+
+    margin-bottom: 140px;
+
+}
+
+.plan_container h3 {
+
+    margin-bottom: 62px;
+    font-size: 32px;
+
+}
+
+
+.flex-bot img {
+
+    margin: 20px 10px 0px;
+    width: 250px;
+    
+
+}
+
+
+.flex-bot h3 {
+
+    margin: 20px 0;
+    font-size: 24px;
+
+}
+
+.flex-bot div {
+
+    background-color: #9792e4;
+    border-radius: 100%;
+    width: 52px;
+    margin:44px auto;
+
+}
+
+
+.flex-bot div i {
+
+    padding: 16px;
 
 }
 
@@ -395,6 +448,55 @@ div a {
 
     }   
 
+    #planning1 {
+
+        margin-left: 30px;
+
+    }
+
+    .plan_container_square h3 {
+
+        font-size: 60px;
+
+    }
+
+    .flex-bot {
+
+        padding: 30px 0;
+        margin: 0 30px;
+        
+
+    }
+
+    .flex-bot h3 {
+
+        font-size: 22px;
+        
+
+    }
+
+    .flex-bot div  {
+
+        margin-bottom: 30px;
+
+    }
+
+    .flex-bot p  {
+
+        margin: 0 30px;
+
+    }
+
+
+
+    #planning2 {
+
+        width: 560px;
+
+    }
+
+
+
         /* benefit section  */
 
     .benefit_container_square {
@@ -427,6 +529,34 @@ div a {
         
         padding: 0;
 
+    }
+
+    .phoneimg {
+
+        width: 250px;
+        
+    }
+
+
+        /* planning section  */
+
+    #planning1 {
+
+        margin-left: 0px;
+    
+    }    
+
+    .plan_container_square h3 {
+
+        font-size: 40px;
+
+    }
+
+
+    .flex-bot h3 {
+
+        font-size: 22px;
+        
     }
 
         /* benefit section  */
